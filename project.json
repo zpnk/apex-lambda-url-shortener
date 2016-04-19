@@ -1,0 +1,13 @@
+{
+  "name": "shrtn_dev",
+  "description": "Shorten urls.",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::109821009743:role/shrtn_lambda",
+  "defaultEnvironment": "dev",
+  "environment": {},
+  "vpc": {
+    "securityGroups": ["sg-cf0c3aab"],
+    "subnets": ["subnet-33bd8009", "subnet-b1c0499a", "subnet-0087c477", "subnet-15a8cf4c"]
+  }
+}
